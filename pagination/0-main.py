@@ -5,10 +5,10 @@ Main file
 
 index_range = __import__('0-simple_helper_function').index_range
 
-res = index_range(1, 7)
-print(type(res))
-print(res)
+response = index_range(1, 7)
+print(type(response))
+print(response)
 
 res = index_range(page=3, page_size=15)
-print(type(res))
-print(res)
+print(type(response))
+print(response)
